@@ -41,7 +41,11 @@ Some info on how to customize your sync:
 
 Smallest/fastest sync:
 
-    $ repo sync --no-tags --no-clone-bundle
+  # repo sync -j1 -f --force-sync --no-clone-bundle
+  
+  # source build/envsetup.sh
+  
+  # brunch aicp_mido-userdebug
 
     Note: we already define -c in our default.xml, so no need to add it
 
